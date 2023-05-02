@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  align-content: center;
 }
 
 .App-link {
@@ -36,15 +37,35 @@
     transform: rotate(360deg);
   }
 }
+ 
+/* Nav Bar  */
 
+.active.navbar {
+  background-color: greenyellow;
+}
 
 li {
   float: left;
   display: inline;
+
 }
 
-a {
+.navbar a {
   display: block;
-  padding: 8px;
-  background-color: tan;
+  padding: 25px;
+  background-color: darkgray;
+  color: darkcyan;
+  border: 1px solid black;
+}
+
+.Contact {
+  text-align: center;
+  background-color: lightblue;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  display: inline-block;
+  width: 100%;
 }
